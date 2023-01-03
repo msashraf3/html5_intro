@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        label{
+            display: block;
+            margin: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to fakusite</h1>
+    <form>
+        <label for="Name">Your Name: <input type="text" id="name" placeholder="Enter Your Name"></label>
+        <label for="E-mail">Your E-mail: <input type="email" id="E-mail" placeholder="Enter Your E-mail address"></label>
+        <label for="Mobile no">Your Mobile No: <input type="number" id="mobile" placeholder="Enter Your Mobile Number"></label>
+        <label for="password">Your Password: <input type="password" id="password" placeholder="Enter Your password"></label>
+        <fieldset>
+        <legend>Pick The services You Want</legend>
+            <label for="Free"><input type="radio" id="Free" name="plans">Basic Free plan</label>
+            <label for="Enterprize"><input type="radio" id="intermediate" name="plans">Enterprize $8 a Month</label>
+            <label for="Professional"><input type="radio" id="Professional" name="plans">Professional $15 a Month</label>
+        </fieldset>
+        <fieldset>
+            <legend>Pick a Gift</legend>
+            <label for="nothing"><input type="checkbox" name="gifts" id="basic">Basic plan and You kidding me.</label>
+            <label for="Enterprize"><input type="checkbox" name="gifts" id="Enterprize">Watch</label>
+            <label for="Professional"><input type="checkbox" name="gifts" id="Professional">iPhone</label>
+        </fieldset>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+</form>
+</body>
+</html>
